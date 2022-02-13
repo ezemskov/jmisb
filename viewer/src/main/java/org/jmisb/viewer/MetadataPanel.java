@@ -110,7 +110,7 @@ public class MetadataPanel extends JTextPane implements IMetadataListener
 
         // Refresh at most once per second
         long current = System.nanoTime();
-        if ((current - previous) > 1_000_000_000)
+        //if ((current - previous) > 1_000_000_000)
         {
             SwingUtilities.invokeLater(() ->
             {
